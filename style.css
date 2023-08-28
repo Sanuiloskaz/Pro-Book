@@ -78,7 +78,7 @@ position: absolute;
 height: 28px;
 width: 28px;
 border-radius: 50%;
-background-image: url(images/unchecked.png);
+background-image: url(assets/unchecked.png);
 background-size: cover;
 background-position: center;
 top: 12px;
@@ -91,7 +91,7 @@ text-decoration: line-through;
 }
 
 ul li.checked::before{
-background-image: url(images/checked.png);
+background-image: url(assets/checked.png);
 }
 
 ul li span {
@@ -110,6 +110,7 @@ border-radius: 50%;
 ul li span:hover {
 background-color: #edeef0;
 }
+
 
 @media (max-width: 700px) {
   button {
